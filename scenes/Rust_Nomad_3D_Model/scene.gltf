@@ -1,0 +1,663 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1427,
+      "max": [
+        0.7363844513893127,
+        0.13596144318580627,
+        1.253906488418579
+      ],
+      "min": [
+        -0.7411891222000122,
+        -0.021160053089261055,
+        0.9706644415855408
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 17124,
+      "componentType": 5126,
+      "count": 1427,
+      "max": [
+        0.9994654059410095,
+        0.9987291097640991,
+        0.9568371772766113
+      ],
+      "min": [
+        -0.9994239211082458,
+        -0.9998248815536499,
+        -0.9989533424377441
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1427,
+      "max": [
+        1.9941409826278687,
+        0.9902970194816589
+      ],
+      "min": [
+        0.006790999788790941,
+        0.013924002647399902
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5676,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 34248,
+      "componentType": 5126,
+      "count": 4082,
+      "max": [
+        0.18556733429431915,
+        0.1855323761701584,
+        2.0558407306671143
+      ],
+      "min": [
+        -0.24128472805023193,
+        -0.2804450988769531,
+        1.275428056716919
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 83232,
+      "componentType": 5126,
+      "count": 4082,
+      "max": [
+        0.9997345805168152,
+        0.9992929100990295,
+        0.9969862699508667
+      ],
+      "min": [
+        -0.9999408721923828,
+        -0.9999952912330627,
+        -0.9979931712150574
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 11416,
+      "componentType": 5126,
+      "count": 4082,
+      "max": [
+        0.9941409826278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0044519901275634766
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 22704,
+      "componentType": 5125,
+      "count": 14718,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 132216,
+      "componentType": 5126,
+      "count": 3455,
+      "max": [
+        0.28842589259147644,
+        0.20044831931591034,
+        1.1785550117492676
+      ],
+      "min": [
+        -0.29318615794181824,
+        -0.21019671857357025,
+        -0.020406551659107208
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 173676,
+      "componentType": 5126,
+      "count": 3455,
+      "max": [
+        0.9997498393058777,
+        0.9999855756759644,
+        0.9998987913131714
+      ],
+      "min": [
+        -0.9997915625572205,
+        -0.9994934797286987,
+        -0.9999756813049316
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 44072,
+      "componentType": 5126,
+      "count": 3455,
+      "max": [
+        0.9969940185546875,
+        0.9960939884185791
+      ],
+      "min": [
+        -4.999999873689376e-06,
+        0.002700984477996826
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 81576,
+      "componentType": 5125,
+      "count": 13596,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 215136,
+      "componentType": 5126,
+      "count": 2687,
+      "max": [
+        0.27669164538383484,
+        0.5650096535682678,
+        1.8427146673202515
+      ],
+      "min": [
+        -0.28067776560783386,
+        -0.05987545847892761,
+        1.2142888307571411
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 247380,
+      "componentType": 5126,
+      "count": 2687,
+      "max": [
+        0.99991774559021,
+        0.9997974038124084,
+        0.9990825057029724
+      ],
+      "min": [
+        -0.9994207620620728,
+        -0.999839186668396,
+        -0.9980033040046692
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 71712,
+      "componentType": 5126,
+      "count": 2687,
+      "max": [
+        0.9975590109825134,
+        0.9936519861221313
+      ],
+      "min": [
+        0.003794000018388033,
+        0.0029320120811462402
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 135960,
+      "componentType": 5125,
+      "count": 8049,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 279624,
+      "componentType": 5126,
+      "count": 4035,
+      "max": [
+        0.6551481485366821,
+        0.2533767819404602,
+        1.7589304447174072
+      ],
+      "min": [
+        -0.6600179076194763,
+        -0.21617382764816284,
+        0.5961040258407593
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 328044,
+      "componentType": 5126,
+      "count": 4035,
+      "max": [
+        0.999946653842926,
+        0.9999686479568481,
+        0.9984959959983826
+      ],
+      "min": [
+        -0.9997542500495911,
+        -0.9996584057807922,
+        -0.9989732503890991
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 93208,
+      "componentType": 5126,
+      "count": 4035,
+      "max": [
+        0.9974780082702637,
+        0.9970700144767761
+      ],
+      "min": [
+        0.005929999984800816,
+        0.002490997314453125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 168156,
+      "componentType": 5125,
+      "count": 14700,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Homless_Models (https://sketchfab.com/hl_models)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/rust-nomad-2d62c12575e1431395cd90e67bfa70e6",
+      "title": "Rust Nomad"
+    },
+    "generator": "Sketchfab-15.55.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 226956,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 125488,
+      "byteOffset": 226956,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 376464,
+      "byteOffset": 352444,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 728908,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "images": [
+    {
+      "uri": "textures/GlovesMat_baseColor.png"
+    },
+    {
+      "uri": "textures/HeadMat_baseColor.png"
+    },
+    {
+      "uri": "textures/PantsMat_baseColor.png"
+    },
+    {
+      "uri": "textures/BackpackMat_baseColor.png"
+    },
+    {
+      "uri": "textures/TorsoMat_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.2
+        }
+      },
+      "name": "GlovesMat",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.2
+        }
+      },
+      "name": "HeadMat",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.2
+        }
+      },
+      "name": "PantsMat",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.2
+        }
+      },
+      "name": "BackpackMat",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.2
+        }
+      },
+      "name": "TorsoMat",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "NomadBody_GlovesMat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "NomadBody_HeadMat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "NomadBody_PantsMat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "NomadBody_BackpackMat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "NomadBody_TorsoMat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.9051679372787476,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0098765702386502e-16,
+        -0.9051679372787476,
+        0.0,
+        0.0,
+        0.9051679372787476,
+        2.0098765702386502e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "3eb17d4c10ec4d3ebfc241c7cb2bc8c8.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "NomadBody"
+    },
+    {
+      "mesh": 0,
+      "name": "NomadBody_GlovesMat_0"
+    },
+    {
+      "mesh": 1,
+      "name": "NomadBody_HeadMat_0"
+    },
+    {
+      "mesh": 2,
+      "name": "NomadBody_PantsMat_0"
+    },
+    {
+      "mesh": 3,
+      "name": "NomadBody_BackpackMat_0"
+    },
+    {
+      "mesh": 4,
+      "name": "NomadBody_TorsoMat_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    }
+  ]
+}

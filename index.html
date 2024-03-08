@@ -1,0 +1,74 @@
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/dist/mindar-image.prod.js"></script>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.2.0/dist/aframe-extras.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/dist/mindar-image-aframe.prod.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+  </head>
+  <body>
+    <a-scene id="SCENE"
+      mindar-image="imageTargetSrc: ./qr.s9.mind;"
+      vr-mode-ui="enabled: false"
+      device-orientation-permission-ui="enabled: false"
+    >
+      <a-assets>
+        <!-- <a-cubemap id="pisa">
+          <img src="https://threejs.org/examples/textures/cube/pisa/px.png">
+          <img src="https://threejs.org/examples/textures/cube/pisa/nx.png">
+          <img src="https://threejs.org/examples/textures/cube/pisa/py.png">
+          <img src="https://threejs.org/examples/textures/cube/pisa/ny.png">
+          <img src="https://threejs.org/examples/textures/cube/pisa/pz.png">
+          <img src="https://threejs.org/examples/textures/cube/pisa/nz.png">
+        </a-cubemap> -->
+
+        <!-- <a-asset-item id="kaleidotron_500" src="./scenes/kaleidotron_500.gltf"></a-asset-item>
+        <a-asset-item id="pink-cube" src="./scenes/pink-cube.glb"></a-asset-item>
+        <a-asset-item id="tesseract" src="./scenes/Tesseract prism.gltf"></a-asset-item>
+        <a-asset-item id="cuboid" src="./scenes/cuboid/scene.gltf"></a-asset-item> -->
+        <a-asset-item id="Bubbly_surface" src="./scenes/Bubbly surface/scene.gltf"></a-asset-item>
+        <!-- <a-asset-item id="Liner_3D" src="./scenes/Liner 3D/scene.gltf"></a-asset-item>
+        <a-asset-item id="starish" src="./scenes/starish/scene.gltf"></a-asset-item> -->
+        <!-- <a-asset-item id="Solar_Panel" src="./scenes/Solar_Panel/scene.gltf"></a-asset-item> -->
+        <a-asset-item id="Rust_Nomad_3D_Model" src="./scenes/Rust_Nomad_3D_Model/scene.gltf"></a-asset-item>
+        <!-- <a-asset-item id="Rust_Nomad_Space_Suit" src="./scenes/Rust_Nomad_Space_Suit/scene.gltf"></a-asset-item> -->
+        <a-asset-item id="Satellite_LNB_Building_Roof" src="./scenes/Satellite_LNB_Building_Roof/scene.gltf"></a-asset-item>
+      </a-assets>
+
+      <a-camera position="0 3 .2" look-controls="enabled: false"></a-camera>
+
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-light id="L1" type="point" color="pink" position="0 0 1" intensity="1"></a-light>
+        <!-- <a-plane color="blue" opaciy="0.5" position="0 0 0" height="0.552" width="1" rotation="0 0 0"></a-plane> -->
+        <!-- <a-entity gltf-model="#kaleidotron_500"></a-entity> -->
+        <!-- <a-entity scale=".1 .1 .1" gltf-model="#cuboid"></a-entity> -->
+        <a-entity id="sketchfab" rotation="90 0 0">
+          <a-entity scale=".1 .1 .1" gltf-model="#Bubbly_surface" animation-mixer></a-entity>
+          <!-- <a-entity gltf-model="#Liner_3D" animation-mixer></a-entity> -->
+          <!-- <a-entity gltf-model="#starish" animation-mixer></a-entity> -->
+          <!-- <a-entity scale=".007 .007 .007" rotation="0 90 0" gltf-model="#Solar_Panel" animation-mixer></a-entity> -->
+        </a-entity>
+        <a-entity scale="1 1 1" position="0 -1.5, 0.1" rotation="0 0 0" gltf-model="#Rust_Nomad_3D_Model" animation-mixer></a-entity>
+        <!-- <a-entity scale="1 1 1" position="0 -1, 0" rotation="0 0 0" gltf-model="#Rust_Nomad_Space_Suit" animation-mixer></a-entity> -->
+        <a-entity scale=".7 .7 .7" position="0 1.5 0" rotation="90 0 0" gltf-model="#Satellite_LNB_Building_Roof" animation-mixer></a-entity>
+
+<!--         <a-entity
+          position="0 0 0"
+          scale="1 1 1"
+          gltf-model="./scenes/cube.gltf"
+        ></a-entity> -->
+      </a-entity>
+
+    </a-scene>
+
+    <script>
+      let reflectionMap = new THREE.TextureLoader().load("https://cdn.glitch.global/7426b469-4cb2-4027-abe8-f01d443ec980/PlaygroundEnvironmentMapDay.jpg?v=1646062739295");
+      reflectionMap.encoding = THREE.sRGBEncoding;
+      reflectionMap.mapping = THREE.EquirectangularReflectionMapping;
+      SCENE.object3D.environment = reflectionMap;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rust Nomad
+* source:	https://sketchfab.com/3d-models/rust-nomad-2d62c12575e1431395cd90e67bfa70e6
+* author:	Homless_Models (https://sketchfab.com/hl_models)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rust Nomad" (https://sketchfab.com/3d-models/rust-nomad-2d62c12575e1431395cd90e67bfa70e6) by Homless_Models (https://sketchfab.com/hl_models) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
